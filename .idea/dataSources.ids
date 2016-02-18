@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - pari@localhost" uuid="71a0d6ab-2314-4055-bd9e-30d47148374c">
+    <database-info product="MySQL" version="5.6.26-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.36 ( Revision: 4fc1f969f740409a4e03750316df2c0e429f3dc8 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="pari"/>
+    <table name="bets" schema="" catalog="pari" type="TABLE">
+      <column name="BetID" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Sport" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Money" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="WinMoney" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="Date" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91"/>
+    </table>
+  </data-source>
+</component>
